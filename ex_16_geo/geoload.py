@@ -46,6 +46,7 @@ for line in fh:
         (memoryview(address.encode()),))
     try:
         #漏了一个括号fetchnone()，但我却一直以为等号要替换成like语句，因为在DB Browser for SQLite 中等于号查不到结果（这个找了好久）
+        #插入时用到memoryview()函数，但memoryview()函数返回值不是bytes,所以插入也不是bytes插入，decode()函数就没有必要
         data = cur.fetchone()[0]
         #如果没有数据这里直接抛出异常，空值判断没有效果
         # if data is not None:
