@@ -5,4 +5,5 @@
 
 Using Databases with Python课程中的结业测试成果
 
+![image](https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/ex_16_geo/myLocationHtmlScreenshot.png)
 
