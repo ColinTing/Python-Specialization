@@ -4,7 +4,7 @@ import json
 import ssl
 
 
-api_key = "AIzaSyC-piB4hmzD76v500LXepKIyqkN4PfOnjM"
+api_key = False
 # If you have a Google Places API key, enter it here
 # api_key = 'AIzaSy___IDByT70'
 # https://developers.google.com/maps/documentation/geocoding/intro

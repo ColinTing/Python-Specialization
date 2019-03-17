@@ -16,7 +16,7 @@ while True:
     url = serviceurl + urllib.parse.urlencode(
         {'address':address}
     )+'&'+urllib.parse.urlencode(
-        {'key':'DCDBZ-QSZWP-KHIDQ-V7E24-JWFXE-UQBS4'}
+        {'key':'*****-*****-*****-*****-*****-*****'}
     )
     print('Retrieving', url)
     uh = urllib.request.urlopen(url,context=ctx)
