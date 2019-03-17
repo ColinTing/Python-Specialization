@@ -8,6 +8,7 @@ cur = conn.cursor()
 cur.execute('SELECT * FROM Locations')
 fhand = codecs.open('where.js','w','utf-8')
 #把json的赋值给变量也写进文件中而不只是从json头开始写起
+#因为这样where.js中的json数组可方便where.html中for循环调用
 fhand.write("myData = [\n")
 count = 0
 for row in cur:
