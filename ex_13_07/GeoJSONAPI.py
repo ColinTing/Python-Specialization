@@ -1,4 +1,4 @@
-#from __future__ import unicode_literals
+from __future__ import unicode_literals
 import urllib.request, urllib.parse, urllib.error
 import json
 import ssl
@@ -45,5 +45,5 @@ while True:
         print(data)
         continue
 
-    #print(json.dumps(js, ensure_ascii=False, indent=4))
+    print(json.dumps(js, ensure_ascii=False, indent=4))
 
