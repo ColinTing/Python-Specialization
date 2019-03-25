@@ -66,7 +66,8 @@ for entry in all:
     rating = lookup(entry, 'Rating')
     length = lookup(entry, 'Total Time')
 
-    #空值判断很重要，如果空值，后面插入就不成功，查询就会报错
+    #空值判断很重要，如果空值，后面插入null，查询时如果是按“name=null”方式查是查询不到结果的，必须用name is null,
+    #没有结果时fetchone()还不会报错，但是fetchone()[0]取返回的字段时就报错了
     if name is None or artist is None or album is None or genre is None : 
         continue
 
