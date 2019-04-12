@@ -1,6 +1,7 @@
 .DS_Store
 /.vscode
 /pagerank/coursera
+/ex_16_geo
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
