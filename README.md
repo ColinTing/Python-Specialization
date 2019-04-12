@@ -7,3 +7,13 @@ Using Databases with Python课程中的结业测试成果
 
 ![image](https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/ex_16_geo/myLocationHtmlScreenshot.png)
 
+Capstone: Retrieving, Processing, and Visualizing Data with Python课程中的Page Rank算法实践
+
+豆瓣商业图书板块(https://book.douban.com/tag/%E5%95%86%E4%B8%9A)
+经过我的小型pagerank算法排序后根据受欢迎度和声望两维度排名，前6名图书见图示
+![image](https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/pagerank/douban/doubanBookPageRank.jpg)
+
+
+
+
+
