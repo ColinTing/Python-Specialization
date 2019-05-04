@@ -87,7 +87,7 @@ def parsemaildate(md) :
     tz = "+0000"
     try:
         tz = pieces[4]
-        ival = int(tz) # Only want numeric timezone values
+        #ival = int(tz) # Only want numeric timezone values
         if tz == '-0000' : tz = '+0000'
         tzh = tz[:3]
         tzm = tz[3:]
@@ -101,18 +101,18 @@ def parsemaildate(md) :
 def parseheader(hdr, allsenders=None):
     if hdr is None or len(hdr) < 1 : return None
     sender = None
-    x = re.findall('\nFrom: .* <(\S+@\S+)>\n', hdr)
+    x = re.findall('\nFrom: .* <(\\S+@\\S+)>\n', hdr)
     if len(x) >= 1 :
         sender = x[0]
     else:
-        x = re.findall('\nFrom: (\S+@\S+)\n', hdr)
+        x = re.findall('\nFrom: (\\S+@\\S+)\n', hdr)
         if len(x) >= 1 :
             sender = x[0]
 
     # normalize the domain name of Email addresses
     sender = fixsender(sender, allsenders)
 
-    date = None
+    #date = None
     y = re.findall('\nDate: .*, (.*)\n', hdr)
     sent_at = None
     if len(y) >= 1 :
@@ -120,7 +120,7 @@ def parseheader(hdr, allsenders=None):
         tdate = tdate[:26]
         try:
             sent_at = parsemaildate(tdate)
-        except Exception as e:
+        except Exception:
             # print('Date ignored ',tdate, e)
             return None
 
