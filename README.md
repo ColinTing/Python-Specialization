@@ -6,7 +6,7 @@
 
 ## Using Databases with Python课程中的结课作业展示
 
-<img src="https://raw.githubusercontent.com/ColinTing/Python-for-Everybody-Specialization/blob/master/ex_16_geo/myLocationHtmlScreenshot.png" width="25%">
+<img src="https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/ex_16_geo/myLocationHtmlScreenshot.png" width="25%">
 
 #### 作业要求是html展示出data后缀文件中的数据，图中的位置是我曾经生活过的几个城市
 
