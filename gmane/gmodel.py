@@ -42,7 +42,7 @@ def fixsender(sender,allsenders=None) :
     mpieces = sender.split("@")
     if len(mpieces) != 2 : return sender
     dns = mpieces[1]
-    x = dns
+    #x = dns
     pieces = dns.split(".")
     if dns.endswith(".edu") or dns.endswith(".com") or dns.endswith(".org") or dns.endswith(".net") :
         dns = ".".join(pieces[-2:])

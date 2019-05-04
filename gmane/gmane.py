@@ -47,7 +47,7 @@ def parsemaildate(md) :
     tz = "+0000"
     try:
         tz = pieces[4]
-        ival = int(tz) # Only want numeric timezone values
+        #ival = int(tz) # Only want numeric timezone values
         if tz == '-0000' : tz = '+0000'
         tzh = tz[:3]
         tzm = tz[3:]
@@ -147,20 +147,20 @@ while True:
         continue
 
     email = None
-    x = re.findall('\nFrom: .* <(\S+@\S+)>\n', hdr)
+    x = re.findall('\nFrom: .* <(\\S+@\\S+)>\n', hdr)
     if len(x) == 1 :
         email = x[0]
         email = email.strip().lower()
         email = email.replace("<","")
     else:
-        x = re.findall('\nFrom: (\S+@\S+)\n', hdr)
+        x = re.findall('\nFrom: (\\S+@\\S+)\n', hdr)
         if len(x) == 1 :
             email = x[0]
             email = email.strip().lower()
             email = email.replace("<","")
 
     date = None
-    y = re.findall('\Date: .*, (.*)\n', hdr)
+    y = re.findall('Date: .*, (.*)\n', hdr)
     if len(y) == 1 :
         tdate = y[0]
         tdate = tdate[:26]
@@ -174,7 +174,7 @@ while True:
             continue
 
     subject = None
-    z = re.findall('\Subject: (.*)\n', hdr)
+    z = re.findall('Subject: (.*)\n', hdr)
     if len(z) == 1 : subject = z[0].strip().lower()
 
     # Reset the fail counter

@@ -63,7 +63,7 @@ for year in years:
         key = (year, org)
         val = counts.get(key,0)
         fhand.write(","+str(val))
-    fhand.write("]");
+    fhand.write("]")
 
 fhand.write("\n];\n")
 fhand.close()
