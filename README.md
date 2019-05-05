@@ -1,6 +1,6 @@
 # Python for Everybody Specialization
 
-此项目为Coursera上“零基础入门Python专项课程”课后作业。
+此项目为Coursera上"<a href="https://www.coursera.org/specializations/python">零基础入门Python专项课程</a>"课后作业。
 科学的学习方法是通过不同场景下对知识应用达到对知识的掌握。这里通过听课，自己的刻意练习及完成课后作业来实践科学的学习方法。
 
 
@@ -36,3 +36,5 @@
 <img src="https://raw.githubusercontent.com/ColinTing/Python-for-Everybody-Specialization/master/gmane/gmane_gline_month.png">
 
 <img src="https://raw.githubusercontent.com/ColinTing/Python-for-Everybody-Specialization/master/gmane/gmane_gline_year.png">
+
+
