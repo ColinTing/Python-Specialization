@@ -29,7 +29,7 @@
 
 #### 下图一中显示了邮件主题中词频出现的状态；下图二中显示了邮件在近10年来的最常发起的前10个邮件域名（最小颗粒度精细到月）；下图三与下图二一致，不过最小颗粒度为年
 
-![image](https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/gmane/gmane_gword.png)
+<img src="https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/gmane/gmane_gword.png">
 
 #### Sakai 是由高校、商业组织和个人开发者组成的社区，致力于开发一个通用的协作学习环境
 
