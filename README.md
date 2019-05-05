@@ -33,7 +33,7 @@
 
 #### Sakai 是由高校、商业组织和个人开发者组成的社区，致力于开发一个通用的协作学习环境
 
-![image]({{ site.baseurl }}/blob/master/assets/gmane_gline_month.png)
+![image]({{ site.baseurl }}/master/blob/assets/gmane_gline_month.png)
 
 ![image](https://github.com/ColinTing/Python-for-Everybody-Specialization/blob/master/gmane/gmane_gline_year.png)
 
