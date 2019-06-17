@@ -13,7 +13,7 @@
 
 ## Capstone: Retrieving, Processing, and Visualizing Data with Python 顶石课程中的"Page Rank项目"个人改编版
 
-#### 豆瓣"商业"图书板块(https://book.douban.com/tag/%E5%95%86%E4%B8%9A) 中的图书经过我的小型pagerank算法排序后根据受欢迎度和声望两维度模拟了一个Google排名，前6名图书见图示
+#### 豆瓣<a href="https://book.douban.com/tag/%E5%95%86%E4%B8%9A">商业</a>图书板块中的图书经过我的小型pagerank算法排序后根据受欢迎度和声望两维度模拟了一个Google排名，前6名图书见图示
 
 
 #### 在爬取了25个页面时图书排名顺序如下
@@ -34,7 +34,7 @@
 
 #### 下图一中显示了邮件主题中关键词云图；下图二中显示了在近10年来的最常发起邮件的前10个域名（最小颗粒度精细到月）；下图三与下图二一致，不过最小颗粒度为年
 
-<img src="raw.githubusercontent.com/ColinTing/Python-for-Everybody-Specialization/master/gmane/gmane_gword.png" title="邮件主题中关键词云图" width="715px" height="647px">
+<img src="https://raw.githubusercontent.com/ColinTing/Python-for-Everybody-Specialization/master/gmane/gmane_gword.png" title="邮件主题中关键词云图" width="715px" height="647px">
 
 <a href="https://colinting.github.io/Python-for-Everybody-Specialization/gmane/gword.htm">邮件主题中关键词云图</a>
 
