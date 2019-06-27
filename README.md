@@ -41,4 +41,4 @@ Sakai 是由高校、商业组织和个人开发者组成的社区，致力于�
 
 <img src="https://colinting.github.io/Python-Specialization/gmane/gmane_gline_year.png" title="近10年来的最常发起邮件的前10个域名（最小颗粒度精细到年）" width="1193px" height="599px">
 
-<a href="https://colinting.github.io/Python-Specialization/gmane/gline.htm">近10年来的最常发起邮件的前10个域名（最小颗粒度精细到年）</a>
+<!-- <a href="https://colinting.github.io/Python-Specialization/gmane/gline.htm">近10年来的最常发起邮件的前10个域名（最小颗粒度精细到年）</a> -->
