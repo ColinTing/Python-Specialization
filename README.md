@@ -9,26 +9,26 @@
 <img src="https://colinting.github.io/Python-Specialization/ex_16_geo/img/myLocationHtmlScreenshot.png" title="我曾经生活过的几个城市" width="782px" height="463px">
 
 
- 作业要求是html展示出data后缀文件中的数据，图中的位置是我曾经生活过的几个城市
+作业要求是html展示出data后缀文件中的数据，图中的位置是我曾经生活过的几个城市
 
 ## Capstone: Retrieving, Processing, and Visualizing Data with Python 顶石课程中的"Page Rank项目"个人改编版
 
- 豆瓣<a href="https://book.douban.com/tag/%E5%95%86%E4%B8%9A">商业</a>图书板块中的图书经过我的小型pagerank算法排序后根据受欢迎度和声望两维度模拟了一个Google排名，前6名图书见图示
+豆瓣<a href="https://book.douban.com/tag/%E5%95%86%E4%B8%9A">商业</a>图书板块中的图书经过我的小型pagerank算法排序后根据受欢迎度和声望两维度模拟了一个Google排名，前6名图书见图示
 
 
-1. 在爬取了25个页面时图书排名顺序如下
+- 在爬取了25个页面时图书排名顺序如下
 
 <img src="https://colinting.github.io/Python-Specialization/pagerank/douban/doubanBookPageRank.jpg" title="爬取了25个页面时图书排名" width="532px" height="527px">
 
 
 
-2. 在爬取了100个页面时图书排名顺序如下
+- 在爬取了100个页面时图书排名顺序如下
 
 <img src="https://colinting.github.io/Python-Specialization/pagerank/douban/doubanBookPageRank100.jpg" title="爬取了100个页面时图书排名" width="493px" height="505px">
 
 <a href="https://colinting.github.io/Python-Specialization/pagerank/douban/force.html">爬取了100个页面时图书排名</a>
 
-两图相对照可以看出在大数据量下《穷查理宝典》异军突起，可谓是真正的好书，《决策与判断》与《影响力》也还算保住了先发优势，也值得一看。而在第二幅图中排名4、5、6的节点，排名第6的《邓普顿教你逆向投资》由于声望凸显，也可以优先拿来一看
+* 两图相对照可以看出在大数据量下《穷查理宝典》异军突起，可谓是真正的好书，《决策与判断》与《影响力》也还算保住了先发优势，也值得一看。而在第二幅图中排名4、5、6的节点，排名第6的《邓普顿教你逆向投资》由于声望凸显，也可以优先拿来一看
 
 ## Capstone: Retrieving, Processing, and Visualizing Data with Python 顶石课程中的"电子邮件数据的抓取和建模项目"
 
