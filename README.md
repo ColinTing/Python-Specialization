@@ -15,11 +15,11 @@
 
 豆瓣<a href="https://book.douban.com/tag/%E5%95%86%E4%B8%9A">商业</a>图书板块中的图书经过我的小型pagerank算法排序后根据受欢迎度和声望两维度模拟了一个Google排名，前6名图书见图示
 
-1. 在爬取了25个页面时图书排名顺序如下
+- 1 在爬取了25个页面时图书排名顺序如下
 
 <img src="https://colinting.github.io/Python-Specialization/pagerank/douban/doubanBookPageRank.jpg" title="爬取了25个页面时图书排名" width="532px" height="527px">
 
-2. 在爬取了100个页面时图书排名顺序如下
+- 2 在爬取了100个页面时图书排名顺序如下
 
 <img src="https://colinting.github.io/Python-Specialization/pagerank/douban/doubanBookPageRank100.jpg" title="爬取了100个页面时图书排名" width="493px" height="505px">
 
